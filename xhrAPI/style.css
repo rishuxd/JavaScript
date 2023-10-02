@@ -1,0 +1,50 @@
+body,
+html,
+:root {
+  height: 100vh;
+  padding: 50px;
+  box-sizing: border-box;
+
+  background-color: #121212;
+  color: antiquewhite;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.left {
+  text-align: center;
+  font-size: 15px;
+  padding: 25px;
+  max-width: 300px;
+
+  .name {
+    font-size: 20px;
+  }
+
+  .username {
+    font-size: 13px;
+    color: greenyellow;
+  }
+
+  .bio {
+    color: aqua;
+  }
+
+  .location {
+    font-size: 13px;
+  }
+}
+
+.right {
+  padding: 25px;
+  font-size: 15px;
+  max-width: 500px;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
